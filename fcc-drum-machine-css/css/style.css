@@ -1,47 +1,6 @@
-/*#drum-machine {
-  background-color: #ffb942;
-}
-
-#display {
-  height: 25vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-size: 70px;
-}
-
-#drum-pads {
-  height: 100%;
-  width: 100%;
-  display: grid;
-  grid-template-columns: 100px 100px 100px;
-  grid-template-rows: 100px 100px 100px;
-  grid-gap: 5px;
-  margin-top: 50px;
-  justify-content: center;
-  align-items: center;
-}
-
-.drum-pad {
-  border: 1px solid black;
-  height: 20vh;
-  width: 20vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-right: 1vw;
-  background-color: #84eeff;
-}*/
-
-#drum-machine { 
-  /* The image used */
+#drum-machine {
   background: url(file:///home/david/Downloads/jaden-hatch-1242191-unsplash.jpg);
-  background-color: #66a3ff;
-
-  /* Full height */
-  height: 100%; 
-
-  /* Center and scale the image nicely */
+  height: 100%;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -62,23 +21,11 @@
   display: grid;
   grid-template-rows: 100px 100px 100px;
   grid-template-columns: 100px 100px 100px;
-  /*grid-template-columns: repeat(auto-fit, 3, minmax(100px, 1fr));
-  grid-template-rows: repeat(auto-fit, 3, minmax(100px, 1fr));*/
   grid-gap: 5px;
   margin-top: 50px;
   justify-content: center;
   align-items: center;
 }
- /*#drum-pads {
-  height: 500%;
-  width: 100%;
-  display: grid;
-  grid-template-columns: 100px 100px 100px;
-  grid-template-rows: 100px 100px 100px;
-  justify-content: center;
-  align-items: center;
-}*/
-
 
 .drum-pad {
   border: 1px solid black;
