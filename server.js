@@ -4,7 +4,7 @@ const express = require('express');
 const server = express();
 //const PORT = 8080;
 
-server.listen(process.env.PORT || 8080);
+server.listen(process.env.PORT);
 //console.log(`listening on port: ${PORT}`);
 
 server.use(express.static(__dirname));
