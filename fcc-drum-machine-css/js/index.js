@@ -16,8 +16,6 @@ var data = [
 
 //Component to set up clickable elements
 var DrumPad = function (_React$Component) {_inherits(DrumPad, _React$Component);function DrumPad() {var _ref;var _temp, _this, _ret;_classCallCheck(this, DrumPad);for (var _len = arguments.length, args = Array(_len), _key = 0; _key < _len; _key++) {args[_key] = arguments[_key];}return _ret = (_temp = (_this = _possibleConstructorReturn(this, (_ref = DrumPad.__proto__ || Object.getPrototypeOf(DrumPad)).call.apply(_ref, [this].concat(args))), _this), _this.
-
-
     handleKeyDown = function (e) {
       if (e.keyCode == _this.props.letter.charCodeAt()) {
         _this.audio.play();
@@ -40,18 +38,13 @@ var DrumPad = function (_React$Component) {_inherits(DrumPad, _React$Component);
             id: this.props.id,
             onClick: this.handleClick },
 
-
           React.createElement("h1", null, this.props.letter),
           React.createElement("audio", {
             ref: function ref(_ref2) {return _this2.audio = _ref2;},
             className: "clip",
             src: this.props.src,
             id: this.props.letter })));
-
-
-
     } }]);return DrumPad;}(React.Component);
-
 
 //The main app.
 var App = function (_React$Component2) {_inherits(App, _React$Component2);
@@ -59,9 +52,6 @@ var App = function (_React$Component2) {_inherits(App, _React$Component2);
 
     //Set what the user sees when they first load in
     var _this3 = _possibleConstructorReturn(this, (App.__proto__ || Object.getPrototypeOf(App)).call(this, props));_this3.
-
-
-
 
     handleDisplay = function (display) {return _this3.setState({ display: display });};_this3.state = { display: "Click or Press Key" };return _this3;}_createClass(App, [{ key: "render", value: function render()
 
@@ -78,11 +68,6 @@ var App = function (_React$Component2) {_inherits(App, _React$Component2);
                   letter: d.letter,
                   src: d.src,
                   handleDisplay: _this4.handleDisplay }));}))));
-
-
-
-
-
     } }]);return App;}(React.Component);
 
 
